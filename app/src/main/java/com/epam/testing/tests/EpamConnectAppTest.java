@@ -23,7 +23,7 @@ public class EpamConnectAppTest extends CommonConditions {
     }
 
     @Test
-    public void verifyLoginPage() {
+    public void verifyErrorMessageWithInvalidCredentials() {
         loginPage.clickLogInButton();
 
         loginPage.clickLogInLinkedinButton();
